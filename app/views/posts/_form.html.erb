@@ -16,6 +16,11 @@
     <%= form.text_field :title %>
   </div>
 
+  <div class="field">
+    <%= form.label :contents %>
+    <%= form.rich_text_area :contents %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
